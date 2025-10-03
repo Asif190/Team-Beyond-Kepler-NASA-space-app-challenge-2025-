@@ -14,6 +14,17 @@ The name *AstroVeritas* comes from *Astronomy* and *Veritas* (Latin for "truth")
 
 ---
 
+###Our deployed app integrated with ML model
+https://astroveritas.vercel.app/
+
+for using the app , the demonstration has been provided in our youtube link, check out our youtube link for good understanding.
+
+###you can avail the testing code directly from the below github source where we have uploaded
+https://github.com/ahmmedalzubaeranam/astroveritas-app
+
+
+
+
 ## ✨ Features
 
 * **Light Curve Ingestion**: Supports both local FITS/TPF files and Lightkurve-based searches.
@@ -84,8 +95,19 @@ vetting_lightgbm.pkl
 ### 5. Demo Inference
 
 Run the **Demo Cell** to test the saved model on sample TESS targets.
-
+(checkout github link provided for more elaborate inference code)
 ---
+
+simply,
+## Getting Started
+
+1. Install dependencies via `pip install -r requirements.txt`  
+2. Run notebook cells 1–13 to train model.  
+3. Demo inference on sample light curves.  
+4. Use saved model `vetting_lightgbm.pkl` for predictions.
+
+
+
 
 ## 📊 Results
 
@@ -125,5 +147,6 @@ Part of an effort to build **fast, explainable exoplanet vetting pipelines** for
 * [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/)
 * [Kepler & TESS Missions](https://exoplanets.nasa.gov/)
 * Open-source ML community
+*large language models (LLMs)
 
 ---
